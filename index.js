@@ -195,7 +195,7 @@ const PERSONAL_MAP_URL =
   "https://personal-heatmaps-external.strava.com/" +
   "tiles/{strava_id}/{color}/{z}/{x}/{y}{res}.png" +
   "?filter_type={activity}&include_everyone=true" +
-  "&include_followers_only=true&respect_privacy_zones=true";
+  "&include_followers_only=true&include_only_me=true&respect_privacy_zones=false";
 
 const GLOBAL_MAP_URL =
   "https://content-a.strava.com/" +
